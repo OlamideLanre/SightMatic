@@ -26,6 +26,10 @@ button:hover {
     transform: scale(0.9);
     
 }
+/* .card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr))
+} */
 .card-content{
     margin-top: 1rem;
     transition: 500ms;
@@ -40,22 +44,11 @@ button:hover {
     justify-content: space-evenly;
     align-items: center;
     padding: 1em;
-    /* border: white solid 3px; */
+    flex-wrap: wrap;
+    max-width: 1450px;
+    margin: 0 auto;
 }
 
-@media screen and (max-width:600px) {
-    .flex-div {
-        flex-direction: column;
-    }
-}
-
-.text-div {
-    width: 550px;
-    height: 300px;
-    margin-top: 30px;
-    margin-left: 20px;
-    border-radius: 5px;
-}
 
 footer {
     height: 200px;

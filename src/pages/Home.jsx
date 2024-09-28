@@ -61,7 +61,7 @@ function Home() {
       </div>
 
       {/* CARDS */}
-      <div className="mt-20 flex-div appear">
+      <div className="mt-20 flex-div card">
         <div className="p-2 w-80 bg-base-100 shadow-xl mt-6 text-slate-400 rounded-xl card-content">
           <figure>
             <img
@@ -159,7 +159,7 @@ function Home() {
         </div>
 
         {/* <div className="bg-gradient-to-r from-gray-900 via-purple-900 to-violet-600 text-div"> */}
-        <div className=" mt-28 ml-11 ">
+        <div className=" mt-28">
           <h1 className="text-white text-3xl font-semibold">
             Unlock Hidden Insights with SightMatic's <br />
             AI-Powered Image Analysis
