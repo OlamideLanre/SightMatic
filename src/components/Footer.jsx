@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
 function Footer() {
   return (
     <>
@@ -22,7 +22,7 @@ function Footer() {
                   <FaFacebook />
                 </a>
 
-                <a href="#">
+                <a href="https://x.com/bukumiiip_">
                   <FaTwitter />
                 </a>
 
@@ -30,8 +30,8 @@ function Footer() {
                   <FaInstagram />
                 </a>
 
-                <a href="#">
-                  <FaYoutube />
+                <a href="https://github.com/OlamideLanre">
+                  <FaGithub />
                 </a>
               </div>
             </div>
